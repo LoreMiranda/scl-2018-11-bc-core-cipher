@@ -7,8 +7,42 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1><center>Bienvenid@ al cifrado Caesar</h1></center>
+          
+        <br>
+        <h3>Instrucciones:</h3>
+          <ul>
+           <li>Recuerda compartirlo solo con tus amigas.</li>
+           <li>No se permiten "ñ", números ni símbolos como !#?$, etc.</li>
+           <br></br>
     </div>
+
+    <div>
+                  
+    <center><h3>Selecciona tu llave </h3>
+        
+      <input type="text" autocomplete="off" id="key">
+        <br></br>
+        
+    
+      <input type="text" autocomplete="off" placeholder="Aquí ingresa tu mensaje" id="fraseInicial"><br>
+        
+      
+      <h1>Elige tu opción</h1>
+      
+      <button type="submit" onclick="encodeText()">Codificar</button> 
+      <button type="submit" onclick="uncodeText()">Decodificar</button><br><br>
+      
+      <h3>Ya esta!!</h3>    
+      <div id = "descifrado">Aqui aparece tu texto cifrado/descifrado</div></center>
+      
+        <br></br>
+            
+    
+        
+            
+        </div>
+    
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

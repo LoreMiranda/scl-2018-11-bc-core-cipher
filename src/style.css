@@ -1,1 +1,41 @@
-/* Acá va tu código */
+body{
+    background-image: url("https://edifica.com.pe/wp-content/uploads/2017/07/salon-con-pared-rosa-y-sofa-gris-con-mesa-de-centro-consola-y-armario-en-madera-clara_1000x1300_28b07b03.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:rgb(151, 151, 170);
+    background-blend-mode: soft-light;
+  }
+    /*----filter:alpha(opacity=50);
+    opacity: 0.5;*/
+    
+   
+  h1{
+    color: rgba(109, 70, 146, 0.979);
+    font-size: 70px;
+    font-family: 'Blackfat';
+    
+  }
+  
+  h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Verdana, sans-serif';
+
+  }
+  li{
+    color:green;
+    }
+    #descifrado {
+        border : 1px groove grey;
+        font-size: 12px;
+        display: inline-block;
+        padding : 1em;
+        width: 25%;
+        height: 50%;
+      }
+#key{
+  width: 4%;
+  height: 40%;
+  border-radius: 6px;
+  padding: 1em;
+}
