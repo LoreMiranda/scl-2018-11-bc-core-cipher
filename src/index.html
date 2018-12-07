@@ -1,49 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+</head>
+
+<body>
     <div id="root">
-      <h1><center>Bienvenid@ al cifrado Caesar</h1></center>
-          
-        <br>
+        <h1>
+            <center>Candadito Cerradito</center>
+        </h1>
+      
         <h3>Instrucciones:</h3>
-          <ul>
-           <li>Recuerda compartirlo solo con tus amigas.</li>
-           <li>No se permiten "ñ", números ni símbolos como !#?$, etc.</li>
-           <br></br>
+        <ul>
+            <li>Recuerda compartirlo solo con tus amigas.</li>
+            <li>Tu llave servirá para codificar/decodificar tu mensaje.</li>
+            <li>Las "ñ", números y símbolos como !#?$ no se reemplazan.</li>
+            
+        </ul>
+        <br>
+
     </div>
 
     <div>
-                  
-    <center><h3>Selecciona tu llave </h3>
-        
-      <input type="text" autocomplete="off" id="key">
-        <br></br>
-        
-    
-      <input type="text" autocomplete="off" placeholder="Aquí ingresa tu mensaje" id="fraseInicial"><br>
-        
-      
-      <h1>Elige tu opción</h1>
-      
-      <button type="submit" onclick="encodeText()">Codificar</button> 
-      <button type="submit" onclick="uncodeText()">Decodificar</button><br><br>
-      
-      <h3>Ya esta!!</h3>    
-      <div id = "descifrado">Aqui aparece tu texto cifrado/descifrado</div></center>
-      
-        <br></br>
-            
-    
-        
-            
-        </div>
-    
+
+        <center>
+            <h3>Selecciona tu llave </h3>
+
+            <input type="number" autocomplete="off" id="key">
+            <br><br>
+
+
+            <input type="text" autocomplete="off" placeholder="Aquí ingresa tu mensaje" id="fraseInicial"><br>
+
+
+            <h1>Elige tu opción</h1>
+
+            <button type="submit" id="btncode">Codificar</button>
+            <button type="submit" id="btnuncode">Decodificar</button><br>
+
+            <h3>Ya esta!!</h3>
+            <div id="descifrado">Aqui aparece tu texto cifrado/descifrado</div>
+        </center>
+
+        <br><br>
+
+
+    </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>
