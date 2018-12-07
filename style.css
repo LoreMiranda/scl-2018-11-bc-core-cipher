@@ -1,4 +1,4 @@
-body{
+body{ /*edición de fondo con imagen likeada*/
       background-image: url("https://4.bp.blogspot.com/-Ut5953j0dlg/Wf_dV_Q3okI/AAAAAAAAAtg/dBKOyYnKt0Eqmjl2sbsJ9DjMsxsrk09AQCK4BGAYYCw/s1600/heart_lock-wallpaper-1920x1080.jpg");
       background-size: cover;
       background-attachment: fixed;
@@ -6,7 +6,7 @@ body{
       background-color:rgb(117, 79, 106);
       background-blend-mode: soft-light;
   }
-      
+      /*edición de título */
   h1{
       color: rgba(247, 247, 247, 0.979);
       font-size: 80px;
@@ -14,19 +14,19 @@ body{
       text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
   }
   
-  h3{
+  h3{  /*edición de instrucciones */
       color: rgb(255, 255, 255);
       font-family: 'Verdana, sans-serif';
       font-size: 30px;
       text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
   }
-  li{
+  li{  /* edición de líneas de intrucción */
       color:rgb(255, 255, 255);
       font-size: 18px;
       text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
   }
   
-  #descifrado {
+  #descifrado { /* edición de caja de resultado */
       border-radius: 5px;
       border: 1.5px solid rgb(255, 255, 255);
       padding: 3%;
@@ -37,13 +37,13 @@ body{
       text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
   }
  
-    #key{
+    #key{ /* edición input de offset */
       width: 2%;
       height: 25%;
       border-radius: 8px;
       padding: 1em;
   }
-    #fraseInicial{
+    #fraseInicial{ /* edición input de ingreso del texto del usuario */
       width: 20%;
       height: 25%;
       border-radius: 8px;
