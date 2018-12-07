@@ -26,20 +26,35 @@ Asímismo, es sabido que la curiosidad siempre está presente y en todas partes,
 ### Cómo funciona?? es muy fácil!!
 
 - Elige tu llave (debes compartir este número con quien quieres que lo lea)
+<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/y89hfz6/llave.png" alt="llave" border="0"></a></center>
+
 - Ingresa el texto que quieras (ojo que los números y símbolos no se cambian)
+<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/HYD3XSw/ingresa-Mensaje.png" alt="ingresa-Mensaje" border="0"></a></center>
+
 - Selecciona una acción (Codificar o Decodificar)
+<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/3TWTLp9/opciones.png" alt="opciones" border="0"></a></center>
+
 - Y listo!!!
+<center><a href="https://imgbb.com/"><img src="https://i.ibb.co/qRcp70t/listo.png" alt="listo" border="0"></a></center>
 
 
 ### Ya puedes utilizar **Candadito Cerradito**, tu nueva app web secreta de codificación de mensajes!!
+
+(pincha el siguiente link para ingresar a la app)
+https://claseslaboratoria.slack.com/archives/GEC4U504V/p1544182432000900
 
 ##BUENA SUERTE!!
 
 
 
 
-
 ## Consideraciones Generales
+
+####Diseño
+
+Prevaleció la idea de un diseño simple y femenino. Se eligió una imagen acorde al tema de la app web, con una transparencia de color lila sobre ella para suavizar la imagen.
+
+La tipografía es totalmente legible y amigable, asímismo el color se eligió en blanco para no sobrecargar la app, y se incluyó una suave sombra difuminada con el fin de que resalte.
 
 
 En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso para definir el producto final a nivel de experiencia y de interfaz.
@@ -48,36 +63,20 @@ En el README.md, cuéntanos cómo pensaste en los usuarios y cuál fue tu proces
 - Cuáles son los objetivos de estos usuarios en relación con tu producto.
 - Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-#### Scripts / Archivos
-
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* 
-* 
+##Consideraciones Técnicas
 
 
-## 
-poner imagn test
+* Se realizan test de prueba en la terminal, los cuales llegan al 100% de funcionalidad en la app.
 
+<a href="https://ibb.co/HNYtgNH"><img src="https://i.ibb.co/5YvrcYR/test-en-terminal.png" alt="test-en-terminal" border="0"></a>
 
+* Se testea en la web
+<a href="https://ibb.co/SPfbjHk"><img src="https://i.ibb.co/7XkPfB3/test-en-web.png" alt="test-en-web" border="0"></a>
 
-## Pistas sobre cómo comenzar a trabajar en el proyecto
+* La planificación de Trello se fue modificando y completando.
+https://trello.com/b/GPHVqYJN/proyecto-app-individual
 
+* El sketching se modificó con el paso de los días y se redujo de 5 páginas a sólo una para hacer mejor y más simplificada la experiencia.
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/N9KLKYn/diagrama.png" alt="diagrama" border="0"></a>
 
-
-
-
-Diseño de experiencia de usuario (User Experience Design):
-
-- Ideación
-- Prototipado (sketching)
-- Testeo e Iteración
-
-
-### Parte Obligatoria
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
+* El producto se testeó con 5 personas de diferentes áreas, quienes pudieron utilizar la app sin problemas.
